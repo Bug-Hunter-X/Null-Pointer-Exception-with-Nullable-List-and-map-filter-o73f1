@@ -1,0 +1,2 @@
+# Kotlin Nullable List and map/filter Bug
+This repository demonstrates a common error in Kotlin involving null pointer exceptions when using the `map` and `filter` functions on nullable lists. The bug arises when attempting to perform these operations on a list that might be null without proper null handling. The solution provides a safe way to handle such situations using the safe call operator and the Elvis operator.
